@@ -86,3 +86,16 @@ contract ArraysExercise {
         delete timestamps;
     }
 }
+//       // Return timestamps and senders after Y2K
+        return (timestampsAfterY2K, sendersAfterY2K);
+    }
+
+    // Function to reset the senders array
+    function resetSenders() public {
+        delete senders;
+    }
+
+    // Function to reset the timestamps array
+    function resetTimestamps() public {
+        delete timestamps;
+    }
